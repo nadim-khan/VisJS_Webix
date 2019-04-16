@@ -111,3 +111,65 @@ function uploadMoreImages(){
    
  }).show();  
 }
+
+
+
+
+
+
+
+
+
+
+*****************************
+	
+	css
+
+
+
+
+
+<style>
+  
+		
+			.overall{ height:100%; line-height: 26px;}
+			.name{ height:100%; float:left; overflow: hidden;}
+			.size{	padding: 0 10px; width: 100px; text-align: right; float: right;}
+			.remove_file{ float:right; width:15px; padding-left: 10px;}
+			.status{
+				float: right;
+				position: relative;
+				margin-top: 4px;
+				width: 80px;
+				height: 16px;
+				line-height: 16px;
+				border: 1px solid #A4BED4;
+				border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px;
+			}
+			.progress{ height: 100%; position: absolute; background-color: #b8e6ff;}
+			.message{ z-index: 1; width:100%; text-align:center; position: absolute;}
+			.message.error{ color: #e83b3b;}
+  			.header{ padding: 10px;  text-align: center;  background: black;  color: white;  font-size: 25px;}
+  
+  .closeWin{
+  	float:right;
+  	position:relative;
+    width:50px;
+    height:50px;
+    background:#d0d0d0;
+    background-color: #1CA1C1;
+    color: white;
+    
+    cursor: pointer;
+  }
+  .closewin::After{
+  content: 'X';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%) scaleX(1.2);
+  transform: translate(-50%,-50%) scaleX(1.2);
+  }
+ 
+</style>
+          
